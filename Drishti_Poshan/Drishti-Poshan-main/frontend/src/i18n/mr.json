@@ -1,0 +1,115 @@
+{
+  "app": { "name": "दृष्टी पोषण", "tagline": "पोषणासाठी दृष्टी" },
+  "nav": {
+    "dashboard": "डॅशबोर्ड", "children": "मुले", "analytics": "विश्लेषण",
+    "addChild": "मूल जोडा", "heatmap": "हीटमॅप", "profile": "प्रोफाइल",
+    "abdm": "ABDM / ABHA", "aiTools": "AI साधने", "voice": "आवाज इनपुट",
+    "ocr": "OCR स्कॅन"
+  },
+  "dashboard": {
+    "title": "डॅशबोर्ड", "subtitle": "तुमच्या अंगणवाडी केंद्रातील बाल पोषणाचे निरीक्षण करा",
+    "totalChildren": "एकूण मुले", "severeRisk": "गंभीर धोका",
+    "moderateRisk": "मध्यम धोका", "normal": "सामान्य",
+    "quickActions": "जलद कृती", "recentChildren": "अलीकडील मुले",
+    "noChildren": "अद्याप कोणतेही मूल नोंदणीकृत नाही।", "registerFirst": "पहिले मूल नोंदणी करा",
+    "addChild": "मूल जोडा", "voiceEntry": "आवाज नोंदणी", "ocrScan": "OCR स्कॅन",
+    "riskAlerts": "धोका सूचना", "syncData": "डेटा सिंक", "openHeatmap": "हीटमॅप",
+    "openProfile": "प्रोफाइल"
+  },
+  "children": {
+    "title": "मुले", "registered": "नोंदणीकृत", "search": "नावाने शोधा...",
+    "allRisk": "सर्व धोका पातळी", "noFound": "कोणतेही मूल सापडले नाही",
+    "adjustSearch": "तुमचा शोध किंवा फिल्टर बदला.",
+    "getStarted": "सुरू करण्यासाठी तुमचे पहिले मूल नोंदणी करा.",
+    "actions": "कृती", "confirmDelete": "मूल हटवा",
+    "confirmDeleteMsg": "तुम्हाला {name} हटवायचे आहे का? ही क्रिया पूर्ववत केली जाऊ शकते.",
+    "deleted": "मूल यशस्वीरीत्या हटवले", "deleteError": "मूल हटवण्यात अयशस्वी"
+  },
+  "addChild": {
+    "title": "मूल नोंदणी करा", "subtitle": "तुमच्या अंगणवाडी केंद्र नोंदींमध्ये नवीन मूल जोडा",
+    "manual": "मॅन्युअल", "ocrMode": "OCR", "voiceMode": "आवाज",
+    "name": "मुलाचे नाव", "age": "वय (महिने)", "sex": "लिंग",
+    "male": "मुलगा", "female": "मुलगी", "weight": "वजन (किग्रॅ)",
+    "height": "उंची (सेमी)", "muac": "MUAC (सेमी)", "guardian": "पालकाचे नाव",
+    "center": "अंगणवाडी केंद्र", "village": "गाव",
+    "submit": "मूल नोंदणी करा", "saving": "जतन करत आहे...",
+    "success": "मूल यशस्वीरीत्या नोंदणीकृत!", "redirecting": "प्रोफाइलवर पुनर्निर्देशित...",
+    "fillFromOCR": "फील्ड ऑटो-भरण्यासाठी फॉर्म इमेज अपलोड करा",
+    "fillFromVoice": "फील्ड ऑटो-भरण्यासाठी मुलाचे तपशील बोला",
+    "fieldsAutoFilled": "{mode} मधून फील्ड ऑटो-भरले. पुनरावलोकन करा आणि सबमिट करा.",
+    "clinicalVitals": "नैदानिक जीवन चिन्हे",
+    "optional": "ऐच्छिक",
+    "hemoglobin": "हिमोग्लोबिन (g/dL)",
+    "temperature": "तापमान (°C)",
+    "respRate": "श्वसन दर (प्रति मिनिट)",
+    "palmarPallor": "तीव्र तळहाताचा फिकटपणा",
+    "pallorYes": "फिकटपणा आढळला",
+    "pallorNo": "फिकटपणा नाही"
+  },
+  "analytics": {
+    "title": "विश्लेषण", "subtitle": "लोकसंख्या-स्तरीय पोषण अंतर्दृष्टी",
+    "riskDist": "धोका वितरण", "byAge": "वयोगट अनुसार", "noData": "कोणताही डेटा उपलब्ध नाही"
+  },
+  "heatmap": {
+    "title": "कुपोषण इंटेलिजन्स मॅट्रिक्स",
+    "subtitle": "वयोगट आणि गावांमध्ये धोका वितरण",
+    "ageGroup": "वयोगट", "riskLevel": "धोका पातळी", "count": "एकूण",
+    "village": "गाव", "allVillages": "सर्व गावे", "allAges": "सर्व वये",
+    "children": "मुले", "noData": "प्रदर्शित करण्यासाठी कोणताही डेटा नाही",
+    "totalScreened": "एकूण तपासले", "samRate": "SAM दर", "mamRate": "MAM दर",
+    "trend": "कल", "trendUp": "वाढत आहे", "trendDown": "कमी होत आहे", "trendStable": "स्थिर",
+    "clickToDrill": "तपशीलासाठी कोणत्याही सेलवर क्लिक करा",
+    "downloadReport": "अहवाल निर्यात करा",
+    "villageBreakdown": "गाव धोका विभाजन",
+    "healthInsights": "आरोग्य अंतर्दृष्टी",
+    "drillEmpty": "या श्रेणीत कोणतेही मूल नाही",
+    "insightConcentration": "{risk} च्या {pct}% प्रकरणे {age} वयोगटात केंद्रित आहेत",
+    "insightVillageAlert": "{village} मध्ये {count} मुले {risk} म्हणून चिन्हांकित",
+    "insightVillageRealloc": "{healthy} मध्ये चांगले स्क्रीनिंग निकाल आहेत. अतिरिक्त संसाधने {worst} कडे वळवा जिथे {count} मुलांना तात्काळ लक्ष देणे आवश्यक आहे.",
+    "insightRiskDensity": "{age} वयोगटात सर्वाधिक धोका घनता आहे — {total} पैकी {atRisk} मुलांना ({pct}%) निरीक्षणाची आवश्यकता आहे.",
+    "insightSamAlert": "SAM दर {pct}% — WHO आपत्कालीन मर्यादा 5% पेक्षा जास्त आहे. तात्काळ पोषण हस्तक्षेप आवश्यक.",
+    "insightPositive": "तपासलेल्या {pct}% मुलांची पोषण स्थिती सामान्य आहे. सध्याचे पोषण कार्यक्रम सकारात्मक परिणाम दर्शवत आहेत."
+  },
+  "profile": {
+    "title": "प्रोफाइल", "login": "लॉग इन", "signup": "साइन अप", "logout": "लॉग आउट",
+    "username": "वापरकर्ता नाव", "email": "ईमेल", "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड पुष्टी", "fullName": "पूर्ण नाव",
+    "role": "भूमिका", "worker": "अंगणवाडी कार्यकर्ता", "supervisor": "पर्यवेक्षक",
+    "loginBtn": "लॉग इन", "signupBtn": "खाते तयार करा",
+    "noAccount": "खाते नाही?", "hasAccount": "आधीच खाते आहे?",
+    "welcome": "पुन्हा स्वागत", "memberSince": "सदस्य तेव्हापासून",
+    "loginError": "अवैध वापरकर्ता नाव किंवा पासवर्ड",
+    "signupError": "खाते तयार करता आले नाही", "passwordMismatch": "पासवर्ड जुळत नाहीत"
+  },
+  "abdm": {
+    "title": "ABDM / ABHA", "subtitle": "आयुष्मान भारत डिजिटल आरोग्य मिशन",
+    "futureReady": "भविष्यासाठी तयार", "comingSoon": "लवकरच येत आहे",
+    "abhaId": "ABHA ID लिंकिंग",
+    "abhaDesc": "सरकारी एकात्मतेसाठी मुलांचे आरोग्य रेकॉर्ड त्यांच्या ABHA ID शी जोडा.",
+    "identity": "रुग्ण ओळख व्यवस्थापन",
+    "identityDesc": "आरोग्य प्रदात्यांमध्ये डिजिटल ओळख, संमती आणि डेटा शेअरिंग व्यवस्थापित करा.",
+    "interop": "सरकारी इंटरऑपरेबिलिटी",
+    "interopDesc": "राष्ट्रीय आरोग्य नोंदणी आणि सरकारी पोषण कार्यक्रमांशी जोडा."
+  },
+  "sync": {
+    "connected": "ऑनलाइन", "offline": "ऑफलाइन", "syncing": "सिंक होत आहे...",
+    "pending": "प्रलंबित", "synced": "सिंक केले", "syncNow": "आता सिंक करा",
+    "lastSync": "शेवटचे सिंक", "never": "कधीच नाही",
+    "restored": "कनेक्शन पुनर्स्थापित. {count} रेकॉर्ड सिंक होत आहेत...",
+    "savedOffline": "ऑफलाइन जतन केले. कनेक्शन आल्यावर सिंक होईल.",
+    "syncSuccess": "{count} ऑफलाइन रेकॉर्ड यशस्वीरीत्या सिंक!",
+    "syncPartial": "{success} सिंक झाले, पण {fail} अयशस्वी. नंतर पुन्हा प्रयत्न.",
+    "syncFailed": "सिंक अयशस्वी. कनेक्शन सुधारल्यावर पुन्हा प्रयत्न.",
+    "goingOffline": "तुम्ही ऑफलाइन आहात. डेटा स्थानिकरित्या जतन केला जाईल.",
+    "backOnline": "पुन्हा ऑनलाइन!"
+  },
+  "common": {
+    "name": "नाव", "age": "वय", "weight": "वजन", "height": "उंची",
+    "risk": "धोका", "center": "केंद्र", "village": "गाव", "cancel": "रद्द करा",
+    "confirm": "पुष्टी करा", "delete": "हटवा", "save": "जतन करा", "close": "बंद करा",
+    "loading": "लोड होत आहे...", "error": "त्रुटी", "success": "यशस्वी",
+    "improving": "सुधारत आहे", "declining": "घसरण", "stable": "स्थिर",
+    "normal": "सामान्य", "moderate": "मध्यम", "severe": "गंभीर"
+  },
+  "lang": { "en": "English", "hi": "हिन्दी", "mr": "मराठी" }
+}

@@ -1,0 +1,115 @@
+{
+  "app": { "name": "Drishti Poshan", "tagline": "Vision for Nutrition" },
+  "nav": {
+    "dashboard": "Dashboard", "children": "Children", "analytics": "Analytics",
+    "addChild": "Add Child", "heatmap": "Heatmap", "profile": "Profile",
+    "abdm": "ABDM / ABHA", "aiTools": "AI Tools", "voice": "Voice Input",
+    "ocr": "OCR Scan"
+  },
+  "dashboard": {
+    "title": "Dashboard", "subtitle": "Monitor child nutrition across your Anganwadi center",
+    "totalChildren": "Total Children", "severeRisk": "Severe Risk",
+    "moderateRisk": "Moderate Risk", "normal": "Normal",
+    "quickActions": "Quick Actions", "recentChildren": "Recent Children",
+    "noChildren": "No children registered yet.", "registerFirst": "Register First Child",
+    "addChild": "Add Child", "voiceEntry": "Voice Entry", "ocrScan": "OCR Scan",
+    "riskAlerts": "Risk Alerts", "syncData": "Sync Data", "openHeatmap": "Heatmap",
+    "openProfile": "Profile"
+  },
+  "children": {
+    "title": "Children", "registered": "registered", "search": "Search by name...",
+    "allRisk": "All Risk Levels", "noFound": "No children found",
+    "adjustSearch": "Try adjusting your search or filter.",
+    "getStarted": "Register your first child to get started.",
+    "actions": "Actions", "confirmDelete": "Delete Child",
+    "confirmDeleteMsg": "Are you sure you want to delete {name}? This action can be undone.",
+    "deleted": "Child deleted successfully", "deleteError": "Failed to delete child"
+  },
+  "addChild": {
+    "title": "Register Child", "subtitle": "Add a new child to your Anganwadi center records",
+    "manual": "Manual", "ocrMode": "OCR", "voiceMode": "Voice",
+    "name": "Child Name", "age": "Age (months)", "sex": "Sex",
+    "male": "Male", "female": "Female", "weight": "Weight (kg)",
+    "height": "Height (cm)", "muac": "MUAC (cm)", "guardian": "Guardian Name",
+    "center": "Anganwadi Center", "village": "Village",
+    "submit": "Register Child", "saving": "Saving...",
+    "success": "Child registered successfully!", "redirecting": "Redirecting to profile...",
+    "fillFromOCR": "Upload a form image to auto-fill fields",
+    "fillFromVoice": "Speak child details to auto-fill fields",
+    "fieldsAutoFilled": "Fields auto-filled from {mode}. Review and submit.",
+    "clinicalVitals": "Clinical Vitals",
+    "optional": "Optional",
+    "hemoglobin": "Hemoglobin (g/dL)",
+    "temperature": "Temperature (°C)",
+    "respRate": "Respiratory Rate (breaths/min)",
+    "palmarPallor": "Severe Palmar Pallor",
+    "pallorYes": "Pallor Detected",
+    "pallorNo": "No Pallor"
+  },
+  "analytics": {
+    "title": "Analytics", "subtitle": "Population-level nutrition insights",
+    "riskDist": "Risk Distribution", "byAge": "By Age Group", "noData": "No data available"
+  },
+  "heatmap": {
+    "title": "Malnutrition Intelligence Matrix",
+    "subtitle": "Risk distribution across age groups and villages",
+    "ageGroup": "Age Group", "riskLevel": "Risk Level", "count": "Total",
+    "village": "Village", "allVillages": "All Villages", "allAges": "All Ages",
+    "children": "children", "noData": "No data to display",
+    "totalScreened": "Total Screened", "samRate": "SAM Rate", "mamRate": "MAM Rate",
+    "trend": "Trend", "trendUp": "Rising", "trendDown": "Declining", "trendStable": "Stable",
+    "clickToDrill": "Click any cell to drill down",
+    "downloadReport": "Export Report",
+    "villageBreakdown": "Village Risk Breakdown",
+    "healthInsights": "Health Insights",
+    "drillEmpty": "No children in this category",
+    "insightConcentration": "{pct}% of {risk} cases are concentrated in the {age} age group",
+    "insightVillageAlert": "{count} children in {village} flagged as {risk}",
+    "insightVillageRealloc": "{healthy} shows strong screening results. Consider reallocating surplus resources to {worst} where {count} children need immediate attention.",
+    "insightRiskDensity": "The {age} age group has the highest risk density — {atRisk} of {total} children ({pct}%) need monitoring.",
+    "insightSamAlert": "SAM rate at {pct}% — exceeds WHO emergency threshold of 5%. Immediate nutritional intervention required.",
+    "insightPositive": "{pct}% of screened children are in normal nutritional status. Current nutrition programmes are showing positive outcomes."
+  },
+  "profile": {
+    "title": "Profile", "login": "Log In", "signup": "Sign Up", "logout": "Log Out",
+    "username": "Username", "email": "Email", "password": "Password",
+    "confirmPassword": "Confirm Password", "fullName": "Full Name",
+    "role": "Role", "worker": "Anganwadi Worker", "supervisor": "Supervisor",
+    "loginBtn": "Log In", "signupBtn": "Create Account",
+    "noAccount": "Don't have an account?", "hasAccount": "Already have an account?",
+    "welcome": "Welcome back", "memberSince": "Member since",
+    "loginError": "Invalid username or password",
+    "signupError": "Could not create account", "passwordMismatch": "Passwords do not match"
+  },
+  "abdm": {
+    "title": "ABDM / ABHA", "subtitle": "Ayushman Bharat Digital Health Mission",
+    "futureReady": "Future Ready", "comingSoon": "Coming Soon",
+    "abhaId": "ABHA ID Linking",
+    "abhaDesc": "Link children's health records to their unique ABHA ID for seamless government integration.",
+    "identity": "Patient Identity Management",
+    "identityDesc": "Manage digital health identities, consent, and data sharing across healthcare providers.",
+    "interop": "Government Interoperability",
+    "interopDesc": "Connect with national health registries and government nutrition programmes."
+  },
+  "sync": {
+    "connected": "Online", "offline": "Offline", "syncing": "Syncing...",
+    "pending": "pending", "synced": "Synced", "syncNow": "Sync Now",
+    "lastSync": "Last synced", "never": "Never",
+    "restored": "Connection restored. Syncing {count} records...",
+    "savedOffline": "Saved offline. Will sync when connected.",
+    "syncSuccess": "{count} offline records synced successfully!",
+    "syncPartial": "Synced {success}, but {fail} failed. Will retry later.",
+    "syncFailed": "Sync failed. Will retry when connection improves.",
+    "goingOffline": "You are offline. Data will be saved locally.",
+    "backOnline": "Back online!"
+  },
+  "common": {
+    "name": "Name", "age": "Age", "weight": "Weight", "height": "Height",
+    "risk": "Risk", "center": "Center", "village": "Village", "cancel": "Cancel",
+    "confirm": "Confirm", "delete": "Delete", "save": "Save", "close": "Close",
+    "loading": "Loading...", "error": "Error", "success": "Success",
+    "improving": "Improving", "declining": "Declining", "stable": "Stable",
+    "normal": "normal", "moderate": "moderate", "severe": "severe"
+  },
+  "lang": { "en": "English", "hi": "हिन्दी", "mr": "मराठी" }
+}

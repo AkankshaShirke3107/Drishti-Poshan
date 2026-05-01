@@ -1,0 +1,40 @@
+# Drishti Poshan - Backend Dependencies
+# Python 3.13 Compatible
+
+setuptools>=70.0.0
+wheel>=0.43.0
+
+# --- Web Framework ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+
+# --- Database ---
+sqlalchemy>=2.0.36
+aiosqlite>=0.20.0
+
+# --- AI / ML (local models for XAI only) ---
+transformers>=4.40.0
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# --- Growth Standards ---
+pygrowup>=0.8.0
+
+# --- Explainable AI ---
+shap>=0.44.0
+scikit-learn>=1.4.0
+
+# --- Groq Cloud AI (OCR + Voice pipelines) ---
+groq>=0.12.0
+
+# --- Utilities ---
+pillow>=10.0.0
+numpy>=1.26.0
+pandas>=2.2.0
+pydantic>=2.9.0
+python-jose>=3.3.0
+bcrypt>=4.1.0
+python-dotenv>=1.0.0
+faker>=33.0.0

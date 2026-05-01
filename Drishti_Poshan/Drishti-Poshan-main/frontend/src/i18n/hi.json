@@ -1,0 +1,115 @@
+{
+  "app": { "name": "दृष्टि पोषण", "tagline": "पोषण के लिए दृष्टि" },
+  "nav": {
+    "dashboard": "डैशबोर्ड", "children": "बच्चे", "analytics": "विश्लेषण",
+    "addChild": "बच्चा जोड़ें", "heatmap": "हीटमैप", "profile": "प्रोफ़ाइल",
+    "abdm": "ABDM / ABHA", "aiTools": "AI उपकरण", "voice": "आवाज़ इनपुट",
+    "ocr": "OCR स्कैन"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड", "subtitle": "अपने आंगनवाड़ी केंद्र में बाल पोषण की निगरानी करें",
+    "totalChildren": "कुल बच्चे", "severeRisk": "गंभीर जोखिम",
+    "moderateRisk": "मध्यम जोखिम", "normal": "सामान्य",
+    "quickActions": "त्वरित कार्य", "recentChildren": "हाल के बच्चे",
+    "noChildren": "अभी तक कोई बच्चा पंजीकृत नहीं है।", "registerFirst": "पहला बच्चा पंजीकृत करें",
+    "addChild": "बच्चा जोड़ें", "voiceEntry": "आवाज़ प्रविष्टि", "ocrScan": "OCR स्कैन",
+    "riskAlerts": "जोखिम अलर्ट", "syncData": "डेटा सिंक", "openHeatmap": "हीटमैप",
+    "openProfile": "प्रोफ़ाइल"
+  },
+  "children": {
+    "title": "बच्चे", "registered": "पंजीकृत", "search": "नाम से खोजें...",
+    "allRisk": "सभी जोखिम स्तर", "noFound": "कोई बच्चा नहीं मिला",
+    "adjustSearch": "अपनी खोज या फ़िल्टर बदलें।",
+    "getStarted": "शुरू करने के लिए अपने पहले बच्चे को पंजीकृत करें।",
+    "actions": "कार्य", "confirmDelete": "बच्चा हटाएं",
+    "confirmDeleteMsg": "क्या आप {name} को हटाना चाहते हैं? यह पूर्ववत किया जा सकता है।",
+    "deleted": "बच्चा सफलतापूर्वक हटाया गया", "deleteError": "बच्चे को हटाने में विफल"
+  },
+  "addChild": {
+    "title": "बच्चा पंजीकृत करें", "subtitle": "अपने आंगनवाड़ी केंद्र रिकॉर्ड में नया बच्चा जोड़ें",
+    "manual": "मैन्युअल", "ocrMode": "OCR", "voiceMode": "आवाज़",
+    "name": "बच्चे का नाम", "age": "उम्र (महीने)", "sex": "लिंग",
+    "male": "लड़का", "female": "लड़की", "weight": "वज़न (किग्रा)",
+    "height": "ऊंचाई (सेमी)", "muac": "MUAC (सेमी)", "guardian": "अभिभावक का नाम",
+    "center": "आंगनवाड़ी केंद्र", "village": "गाँव",
+    "submit": "बच्चा पंजीकृत करें", "saving": "सहेज रहे हैं...",
+    "success": "बच्चा सफलतापूर्वक पंजीकृत!", "redirecting": "प्रोफ़ाइल पर रीडायरेक्ट...",
+    "fillFromOCR": "फ़ील्ड ऑटो-भरने के लिए फ़ॉर्म इमेज अपलोड करें",
+    "fillFromVoice": "फ़ील्ड ऑटो-भरने के लिए बच्चे का विवरण बोलें",
+    "fieldsAutoFilled": "{mode} से फ़ील्ड ऑटो-भर गए। समीक्षा करें और सबमिट करें।",
+    "clinicalVitals": "नैदानिक जीवन संकेत",
+    "optional": "वैकल्पिक",
+    "hemoglobin": "हीमोग्लोबिन (g/dL)",
+    "temperature": "तापमान (°C)",
+    "respRate": "श्वसन दर (प्रति मिनट)",
+    "palmarPallor": "गंभीर हथेली का पीलापन",
+    "pallorYes": "पीलापन पाया गया",
+    "pallorNo": "पीलापन नहीं"
+  },
+  "analytics": {
+    "title": "विश्लेषण", "subtitle": "जनसंख्या-स्तरीय पोषण अंतर्दृष्टि",
+    "riskDist": "जोखिम वितरण", "byAge": "आयु समूह अनुसार", "noData": "कोई डेटा उपलब्ध नहीं"
+  },
+  "heatmap": {
+    "title": "कुपोषण इंटेलिजेंस मैट्रिक्स",
+    "subtitle": "आयु समूहों और गाँवों में जोखिम वितरण",
+    "ageGroup": "आयु समूह", "riskLevel": "जोखिम स्तर", "count": "कुल",
+    "village": "गाँव", "allVillages": "सभी गाँव", "allAges": "सभी उम्र",
+    "children": "बच्चे", "noData": "प्रदर्शित करने के लिए कोई डेटा नहीं",
+    "totalScreened": "कुल जांचे गए", "samRate": "SAM दर", "mamRate": "MAM दर",
+    "trend": "रुझान", "trendUp": "बढ़ रहा है", "trendDown": "गिर रहा है", "trendStable": "स्थिर",
+    "clickToDrill": "विवरण के लिए किसी सेल पर क्लिक करें",
+    "downloadReport": "रिपोर्ट निर्यात करें",
+    "villageBreakdown": "गाँव जोखिम विभाजन",
+    "healthInsights": "स्वास्थ्य अंतर्दृष्टि",
+    "drillEmpty": "इस श्रेणी में कोई बच्चा नहीं",
+    "insightConcentration": "{risk} के {pct}% मामले {age} आयु समूह में केंद्रित हैं",
+    "insightVillageAlert": "{village} में {count} बच्चे {risk} के रूप में चिह्नित",
+    "insightVillageRealloc": "{healthy} में अच्छे स्क्रीनिंग परिणाम हैं। अतिरिक्त संसाधनों को {worst} में स्थानांतरित करें जहाँ {count} बच्चों को तत्काल ध्यान देने की आवश्यकता है।",
+    "insightRiskDensity": "{age} आयु समूह में सबसे अधिक जोखिम घनत्व है — {total} में से {atRisk} बच्चों ({pct}%) को निगरानी की आवश्यकता है।",
+    "insightSamAlert": "SAM दर {pct}% पर — WHO आपातकालीन सीमा 5% से अधिक है। तत्काल पोषण हस्तक्षेप आवश्यक।",
+    "insightPositive": "जांचे गए {pct}% बच्चे सामान्य पोषण स्थिति में हैं। वर्तमान पोषण कार्यक्रम सकारात्मक परिणाम दिखा रहे हैं।"
+  },
+  "profile": {
+    "title": "प्रोफ़ाइल", "login": "लॉग इन", "signup": "साइन अप", "logout": "लॉग आउट",
+    "username": "उपयोगकर्ता नाम", "email": "ईमेल", "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड पुष्टि", "fullName": "पूरा नाम",
+    "role": "भूमिका", "worker": "आंगनवाड़ी कार्यकर्ता", "supervisor": "पर्यवेक्षक",
+    "loginBtn": "लॉग इन", "signupBtn": "खाता बनाएं",
+    "noAccount": "खाता नहीं है?", "hasAccount": "पहले से खाता है?",
+    "welcome": "वापस स्वागत है", "memberSince": "सदस्य तब से",
+    "loginError": "अमान्य उपयोगकर्ता नाम या पासवर्ड",
+    "signupError": "खाता नहीं बना सका", "passwordMismatch": "पासवर्ड मेल नहीं खाते"
+  },
+  "abdm": {
+    "title": "ABDM / ABHA", "subtitle": "आयुष्मान भारत डिजिटल स्वास्थ्य मिशन",
+    "futureReady": "भविष्य के लिए तैयार", "comingSoon": "जल्द आ रहा है",
+    "abhaId": "ABHA ID लिंकिंग",
+    "abhaDesc": "सरकारी एकीकरण के लिए बच्चों के स्वास्थ्य रिकॉर्ड को उनकी ABHA ID से जोड़ें।",
+    "identity": "रोगी पहचान प्रबंधन",
+    "identityDesc": "स्वास्थ्य प्रदाताओं में डिजिटल पहचान, सहमति और डेटा साझाकरण प्रबंधित करें।",
+    "interop": "सरकारी इंटरऑपरेबिलिटी",
+    "interopDesc": "राष्ट्रीय स्वास्थ्य रजिस्ट्री और सरकारी पोषण कार्यक्रमों से जुड़ें।"
+  },
+  "sync": {
+    "connected": "ऑनलाइन", "offline": "ऑफ़लाइन", "syncing": "सिंक हो रहा है...",
+    "pending": "लंबित", "synced": "सिंक किया गया", "syncNow": "अभी सिंक करें",
+    "lastSync": "अंतिम सिंक", "never": "कभी नहीं",
+    "restored": "कनेक्शन बहाल हुआ। {count} रिकॉर्ड सिंक हो रहे हैं...",
+    "savedOffline": "ऑफ़लाइन सहेजा गया। कनेक्शन होने पर सिंक होगा।",
+    "syncSuccess": "{count} ऑफ़लाइन रिकॉर्ड सफलतापूर्वक सिंक!",
+    "syncPartial": "{success} सिंक हुए, लेकिन {fail} असफल। बाद में पुनः प्रयास।",
+    "syncFailed": "सिंक विफल। कनेक्शन सुधरने पर पुनः प्रयास।",
+    "goingOffline": "आप ऑफ़लाइन हैं। डेटा स्थानीय रूप से सहेजा जाएगा।",
+    "backOnline": "वापस ऑनलाइन!"
+  },
+  "common": {
+    "name": "नाम", "age": "उम्र", "weight": "वज़न", "height": "ऊंचाई",
+    "risk": "जोखिम", "center": "केंद्र", "village": "गाँव", "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें", "delete": "हटाएं", "save": "सहेजें", "close": "बंद करें",
+    "loading": "लोड हो रहा है...", "error": "त्रुटि", "success": "सफलता",
+    "improving": "सुधार हो रहा है", "declining": "गिरावट", "stable": "स्थिर",
+    "normal": "सामान्य", "moderate": "मध्यम", "severe": "गंभीर"
+  },
+  "lang": { "en": "English", "hi": "हिन्दी", "mr": "मराठी" }
+}
